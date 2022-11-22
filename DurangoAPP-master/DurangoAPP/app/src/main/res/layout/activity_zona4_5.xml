@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/papiro">
+
+
+        <TextView
+            android:id="@+id/txtZona4_5_Titulo"
+            style="@style/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/txtZona4_5_Titulo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.509"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="80dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="B"
+            android:visibility="invisible"
+            android:gravity="center"
+            android:textSize="26sp" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="115dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_2"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="115dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="O"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_3"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="N"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="185dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_4"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="185dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="B"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_5"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_6"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="255dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_6"
+            android:layout_width="41dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="255dp"
+            android:gravity="center"
+            android:text="R"
+            android:textSize="26sp"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="290dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_7"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="290dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="D"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_8"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="325dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_8"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="325dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_9"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="360dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_9"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="360dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="K"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_10"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="395dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_10"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="395dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="E"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_11"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="430dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_11"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="430dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="T"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_12"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="465dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_12"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="250dp"
+            android:layout_marginTop="465dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_13"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_13"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="215dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="U"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_14"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_14"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="K"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_15"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_15"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="145dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="R"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_16"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="220dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_16"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="220dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_17"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="115dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_17"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="115dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="B"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_18"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_18"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="150dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_19"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="185dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_19"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="185dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="L"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_20"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="255dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_20"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="255dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="O"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_21"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="290dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_21"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="290dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="I"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_22"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="325dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_22"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="180dp"
+            android:layout_marginTop="325dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_23"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="185dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_23"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="185dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="F"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_24"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="255dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_24"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="255dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="T"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_25"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="290dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_25"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="290dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="X"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_26"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="325dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_26"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="325dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_27"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="360dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_27"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="360dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="D"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/imgZona3_5_Box_28"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="395dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/puzzlebox" />
+
+        <TextView
+            android:id="@+id/txtZona3_5_Box_28"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="395dp"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:text="A"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textViewZona4_5Pistas"
+            style="@style/normalTextSmall"
+            android:layout_width="307dp"
+            android:layout_height="79dp"
+            android:layout_marginStart="16dp"
+            android:text="@string/txtZona4_5_Pistas"
+            app:layout_constraintBottom_toTopOf="@+id/editTextZona4_5_resul"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgZona3_5_Box_12"
+            app:layout_constraintVertical_bias="0.522" />
+
+        <EditText
+            android:id="@+id/editTextZona4_5_resul"
+            style="@style/normalTextSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:ems="15"
+            android:hint="Emaitza"
+            android:inputType="text"
+            android:minHeight="48dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.1"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/zona4_5_zuzendu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ZUZENDU"
+            app:layout_constraintBottom_toBottomOf="@+id/editTextZona4_5_resul"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/editTextZona4_5_resul"
+            app:layout_constraintTop_toTopOf="@+id/editTextZona4_5_resul" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

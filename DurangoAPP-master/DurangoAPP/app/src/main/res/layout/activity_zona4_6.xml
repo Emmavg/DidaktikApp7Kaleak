@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Zona4_6"
+    android:background="@color/papiro">
+
+    <ImageView
+        android:id="@+id/imgZona4_6_TxorimaloLetraR"
+        android:layout_width="235dp"
+        android:layout_height="247dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/txtZona4_6_LetraA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgZona4_6_Txorimalo"
+        app:srcCompat="@drawable/txorimalo_letra" />
+
+    <TextView
+        android:id="@+id/txtZona4_6_Titulo"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/txtZona4_6_Titulo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgZona4_6_Txorimalo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtZona4_6_Titulo"
+        app:srcCompat="@drawable/txorimalo" />
+
+    <TextView
+        android:id="@+id/txtZona4_6_Txorimalo"
+        style="@style/normalText"
+        android:layout_width="182dp"
+        android:layout_height="122dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imgZona4_6_Txorimalo"
+        app:layout_constraintStart_toEndOf="@+id/imgZona4_6_Txorimalo"
+        app:layout_constraintTop_toTopOf="@+id/imgZona4_6_Txorimalo" />
+
+    <TextView
+        android:id="@+id/txtZona4_6_LetraA"
+        style="@style/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/txtZona4_6_LetraA"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/zona4_6_fbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/zona4_6_fbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="35dp"
+        android:src="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/txtZona4_6_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="48dp"
+        android:textColor="@color/darkWine"
+        android:text="A"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/imgZona4_6_TxorimaloLetraR"
+        app:layout_constraintTop_toTopOf="@+id/imgZona4_6_TxorimaloLetraR" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

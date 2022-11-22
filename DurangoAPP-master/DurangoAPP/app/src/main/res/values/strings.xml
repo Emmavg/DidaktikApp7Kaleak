@@ -1,0 +1,235 @@
+<resources>
+    <string name="mapbox_access_token">pk.eyJ1Ijoic2lnZWNvcnAiLCJhIjoiY2t4ZWp2bTk0MWdobzJxcGdkNHBvdzQwbCJ9.oGh-BPyI8QoqLfSXCPFF2g</string>
+
+    <string name="app_name">DIDAKTIK APP Durango</string>
+    <string name="talde_berria">Talde berria</string>
+    <string name="jarraitu">Jarraitu</string>
+    <string name="sartu_taldearen_izena">Sartu taldearen izena:</string>
+    <string name="taldea">Taldea</string>
+    <string name="hasi">HASI</string>
+    <string name="giltzaren_bila">"GILTZAREN BILA!"</string>
+    <string name="new_group_error">Sartu taldearen izena</string>
+    <string name="aukeratu_zure_taldea">Aukeratu zure taldea:</string>
+
+    <!--  Strings Zona 0  -->
+    <string name="txtZona0_1_Titulo">BARRIA</string>
+    <string name="txtZona0_1_Narrador_1">Leioako Txomin Aresti ikastetxeko LH 3.mailako ikasleak, urtero bezala, asteburuko txango bat egingo dute. Ostiralean goizeko 9etan maletak autobusean sartu zituzten eta autobusean sartu ziren Durangoko aterpetxe batera bidean. Bidaia oso lasaia izan zen, ikasle guztiak irrika handia zeukaten Aterpetxera ailegatzeko. Baina bat-batean Durangoko aterpetxera ailegatzean gutun bat ikusi zuten atean.</string>
+    <string name="txtZona0_1_Txorimalo_1">Kaixo Txomin Arestiko ikastetxeko LH3 ko ikasleak. Aterpetxeko zuzendaria naiz, Txorimalo eroa, tradizioa denez, aterpetxera sartzeko DURANGO-ko hizkiak lortu beharko dituzue gure herriaren kultura, historia eta gizartea ezagutuz. Hemen, Durangon gustatzen zaigu jendea hemendik ateratzean gure herriko kultura-ondare garrantzitsuak ezagutzea. Baina zer demontre da Kultura Ondarea? Herri bakoitzean gertakizun historiko eta garrantzi kulturala dutenari deitzen zaio, gaur egunera arte mantendu eta gaur egungo belaunaldiei helarazi zaiena. Horregatik, gure aterpetxean asteburu zoragarri bat pasatzeko, Durangoko hainbat kultura ondare ezagutu beharko dituzue. Kultura-ondare bakoitzean, azalpen batzuk emango dizkizuete eta erronka bat ezarriko zaizue, DURANGO-ko kultura ondare ezberdinei dagozkien hizkiak lortzeko. Ni zuen atzetik egongo naiz eta erronkak lortzen badituzue hizkiak nik emango dizkizuet. Geroago, aterpetxera bueltatzen zaretenean, guztiok batera hizkiak postontzian sartuko ditugu eta hori izango da zuen “giltza”. Zorte on eta ordu batzuk barru hemen egongo gara guztiok (espero dut) ji ji.
+       \nAtope Ekipo!</string>
+
+    <!-- Strings Zona 1 -->
+    <string name="txtZona1_1_Titulo">Santa Mariako Eliza</string>
+    <string name="txtZona1_1_Txorimalo_1">Kaixo! Ongi etorri lehenengo geralekura! Durangoko Santa Maria Elizan gaude.</string>
+    <string name="txtZona1_3_Txorimalo_1">Santa Maria XV. mendean eraiki zen, Euskal Herrian, Erdi Aroko alderdi gerrak gertatu zirenean, batez ere Gipuzkoa eta Bizkaian. Geroago berregituratu behar izan zen 1936an Gerra Zibilean gertatu ziren bonbardaketen ondorioz.</string>
+    <string name="txtZona1_5_Txorimalo_1">Durangoko bihotzean dagoen Uribarriko Santa Maria basilika kanpandorre baten ondoan dago, oinezkoentzako kalez inguratuta dago, tenpluaren inguruan bueltaka ibiltzea atsegin eta erakargarri egiten dutenak.
+    Harrigarriena, agian, bere zurezko arkupe bikaina da, bere neurriagatik, plaza bat baino gehiago dirudiena. Arku baxuak ere egin izan dira. Euskadiko handiena dela diote.
+    Santa Maria Elizaren goiko aldean, Errege-Erregina Katolikoen irudiak ikusten dira. Bat-batean, aldare nagusi erromanistaren ikuspegiaren aurrean gelditu zen. Aldare horren erdiko horma-hobian, Juan de Anchieta eskultore ospetsuaren ikasle batek sinatutako Uribarriko Santa Maria Durangoko zaindariaren tailua zegoen.
+    </string>
+    <string name="txtZona1_6_Txorimalo_1">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen letren artean lehenengo letra lortu nahi baduzue, hau da; D letra lortu nahi baduzue…
+    \n5 TEST GALDERA ASMATU BEHAR DITUZUE JAJA!
+    \nKapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+    <string name="btnZona1_7_Test">D LETRA LORTU!</string>
+    <string name="txtZona1_8_Titulo">ZORIONAK!</string>
+    <string name="txtZona1_8_Txorimalo_1">Zorionak! D letra lortu duzue.\nGoazen 2. geralekura!</string>
+    <string name="txtZona1_8_LetraD">D _ _ _ _ _ _</string>
+
+
+    <!--Test Zona 1    -->
+    <string name="txtZona1_7_Titulo">Test Galderak</string>
+    <string name="zona1_7_Pregunta1">Noiz egin zen Durangoko Santa Maria Eliza?</string>
+    <string name="zona1_7_Respuesta_1a">XV. mendean</string>
+    <string name="zona1_7_Respuesta_1b">XIV. mendean</string>
+    <string name="zona1_7_Respuesta_1c">XVI. mendean</string>
+    <string name="zona1_7_Pregunta2">Zergatik berregituratu zen Santa Mariako Eliza?</string>
+    <string name="zona1_7_Respuesta_2a">Erdi Aroko Gerren ondorioz</string>
+    <string name="zona1_7_Respuesta_2b">Gerra Zibilean gertatu ziren bonbardaketengatik</string>
+    <string name="zona1_7_Respuesta_2c">Tren batek elizaren kontra talka egin zuelako</string>
+    <string name="zona1_7_Pregunta3">Santa Mariako Eliza Euskadiko handiena da?</string>
+    <string name="zona1_7_Respuesta_3a">Bai</string>
+    <string name="zona1_7_Respuesta_3b">Ez</string>
+    <string name="zona1_7_Pregunta4">Zer gertatu zen Santa Maria Elizan Gerra Zibilean?</string>
+    <string name="zona1_7_Respuesta_4a">Bonbardaketak</string>
+    <string name="zona1_7_Respuesta_4b">Tsunamia</string>
+    <string name="zona1_7_Respuesta_4c">Terremotoa</string>
+    <string name="zona1_7_Pregunta5">Zeren ondoan dago Santa Maria Eliza?</string>
+    <string name="zona1_7_Respuesta_5a">Eliza baten ondoan</string>
+    <string name="zona1_7_Respuesta_5b">Kanpandorre baten ondoan</string>
+    <string name="zona1_7_Respuesta_5c">Antzoki baten ondoan</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="zona1_7_TxorimaloFallo">Uiiii... Benga, saiatu \nberriro lortuko duzula!</string>
+
+
+    <!--    Zona2-->
+    <string name="txtZona2_1_Titulo">Kurutziagako Gurutzea</string>
+    <string name="txtZona2_1_Txorimalo">Kaixo! Ongi etorri bigarren geralekura! Durangoko Kurutziagako gurutzean gaude.</string>
+    <string name="txtZona2_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen letren artean bigarren letra lortu nahi baduzue, hau da; U letra lortu nahi baduzue…
+    HITZ SALDA HONETAN 5 HITZ AURKITU BEHAR DITUZUE JAJA !
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+    <string name="txtZona2_3_Txorimalo">Kurutziagako gurutzea, XV. mendearen amaieran eta XVI. mendearen hasiera tartean eginda dago, Nafarroko konkista gertatu zen momentuan. Gurutzea garrantzi handia du gizartean, kulturan eta Erdi Aroko historian.
+    Kurutziagako Gurutzea, Kurutziaga izeneko santutxo zaharra da. Durangoko alde zaharraren ondoan kokatuta dago, Kurutziaga kalean, Andra Maria elizatik oso hurbil, lorategi baten erdian.
+    Monumentu garrantzitsu eta berezia da, hareharriz egindakoa eta 4,30 metroko altuera du. Gurtzeak, istorio bat kontatzen du:
+    Behealdetik hasita: fusteak bekatua eta zigorra irudikatzen ditu
+    Erdialdean: kapitelak, Eliza eta ebanjelioa adierazten ditu
+    Goialdean: gurutzaduran, esperantza irudikatzen da, hau da, barkamenaren eta salbazioaren mezua.
+    </string>
+    <string name="btnZona2_5_Juego">U LETRA LORTU!</string>
+    <string name="txtZona2_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona2_6_Txorimalo_1">Zorionak! U letra lortu duzue.\nGoazen 3. geralekura!</string>
+    <string name="txtZona2_6_LetraU">D U _ _ _ _ _</string>
+
+    <!--Juego Zona 2    -->
+
+
+    <!--    Zona 3-->
+    <string name="txtZona3_Titulo">Santa Anako arkua</string>
+    <string name="txtZona3_1_Txorimalo">Kaixo! Ongi etorri hirugarren geralekura! Durangoko Santa Anako arkuan gaude. </string>
+    <string name="txtZona3_3_Txorimalo">Santa Anako arkua 1566an eraiki zen, baina 1743an Udalak atea berregitu zuen ate barroko bat eraikiz, eta errenazentista kenduz.
+    Durango herria inguratzen zuen harresi zaharretik geratzen den sarrerako ate bakarra da. Santa Anako plazan dago kokatuta.
+    Luxu handiarekin eraiki zen: bi solairuko arku handi bat.
+    </string>
+    <string name="txtZona3_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen artean hirugarren letra lortu nahi baduzue, hau da; R letra lortu nahi baduzue…
+
+    4 ARGAZKI ETA ESALDI LOTU BEHAR DITUZUE JAJA!
+
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+
+    <string name="btnZona3_5_Juego">R LETRA LORTU!</string>
+    <string name="txtZona3_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona3_6_Txorimalo_1">Zorionak! R letra lortu duzue.\nGoazen 4. geralekura!</string>
+    <string name="txtZona3_6_LetraR">D U R _ _ _ _</string>
+
+    <!--Juego Zona 3    -->
+    <string name="txtZona3_5_Titulo">LOTU TESTUAK ETA IMAGINAK</string>
+    <string name="txtZona3_5_Frase_1">SANTA ANAKO ARKUA KOKATUTA DAGOEN PLAZA</string>
+    <string name="txtZona3_5_Frase_2">SANTA ANAKO ARKUA GAUR EGUN</string>
+    <string name="txtZona3_5_Frase_3">SANTA ANAKO ARKUA ANTZINEAN</string>
+    <string name="txtZona3_5_Frase_4">SANTA ANAKO ARKUA KOKATUTA DAGOEN HIRIA</string>
+
+
+    <!--    Zona 4-->
+    <string name="txtZona4_Titulo">Durangoko Udala</string>
+    <string name="txtZona4_1_Txorimalo">Kaixo! Ongi etorri laugarren geralekura! Durangoko Udalean gaude.</string>
+    <string name="txtZona4_3_Txorimalo">Durangoko udala eraikin apaintasun ederra duen eraikin bat da. Duela denbora asko eraiki egin zen, XVI. mendean, hala ere, 1973an gerra zibileko bonbardaketaren ondorioz, kaltetu egin zenez, berriro egin behar izan zuten.
+    Eraikin honen elementu zoragarrienak fatxada nagusian daude, hau da, aurreko aldean.  Beheko solairuan erdi-puntuko zazpi arku dituen atari zoragarri bat dago eta lehen solairuan balkoi handi bat dago. Erdikoa nabarmentzen da, Durangoko armarria dagoen frontoi triangeluar bat dago.</string>
+    <string name="txtZona4_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen letren artean laugarren letra lortu nahi baduzue, hau da; A letra lortu nahi baduzue…
+
+    GURUTZEGRAMA BAT EGIN BEHARKO DUZUE!
+    
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+    <string name="btnZona4_5_Juego">A LETRA LORTU!</string>
+    <string name="txtZona4_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona4_6_Txorimalo_1">Zorionak! A letra lortu duzue.\nGoazen 5. geralekura!</string>
+    <string name="txtZona4_6_LetraA">D U R A _ _ _</string>
+
+    <!--Juego Zona 4    -->
+
+    <string name="txtZona4_5_Titulo">Gurutzegrama</string>
+    <string name="txtZona4_5_Pistas">-Zergatik berregituratu zen Udala?\n-Zein da udalaren elementu zoragarriena?\n-Zer dago udalaren beheko solairuan?\n-Zer dago udalaren lehen solairuan?</string>
+
+
+    <!--    Zona 5-->
+    <string name="txtZona5_Titulo">Durangoko Kulturala</string>
+    <string name="txtZona5_1_Txorimalo">Kaixo! Ongi etorri bostgarren geralekura!  Tabiran gaude, Durangoko Kulturala futbol taldea jolasten duen zelaian.</string>
+    <string name="txtZona5_3_Txorimalo">Durangoko Kulturala, 1919. urtean sortu zen, gripe Espainiarraren pandemia gertatu zen momentuan. Durangoko Kulturala, Durangon dagoen futbol talde ofiziala da, gaur egun hirugarren mailan jokatzen duena. Durangoko kirol lagun talde batzuen lanari esker. Taldeko kideak futbolzaleak ziren, eta haien futbolean jokatzeko irrikari esker, haien artean jokatzetik talde handi eta goraipatu bat eratzera heldu ziren.
+    Haien jokalekua aldatuz joan da, lehen Ezkurdin kokatuta zegoen, geroago San Fauston, eta orain Tabiran. Gaur egun, hirugarren mailan jokatzen duen talde bat da, eta taldearen adin aniztasunari esker (jubenilak, kadeteak, infantilak…), nahiz txikia nahiz nagusia izan, talde honetan jokatzeko aukera izan dezakezu.
+    </string>
+    <string name="txtZona5_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen letren artean bosgarren letra lortu nahi baduzue, hau da; N letra lortu nahi baduzue…
+
+    PUZZLE HAU BETE BEHAR DUZUE JAJA !
+
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+    <string name="btnZona5_5_Juego">N LETRA LORTU!</string>
+    <string name="txtZona5_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona5_6_Txorimalo_1">Zorionak! N letra lortu duzue.\nGoazen 6. geralekura!</string>
+    <string name="txtZona5_6_LetraN">D U R A N _ _</string>
+
+    <!--Juego Zona 5    -->
+
+
+    <!--    Zona 6-->
+    <string name="txtZona6_Titulo">Durangoko Azoka</string>
+    <string name="txtZona6_1_Txorimalo">Kaixo! Ongi etorri seigarren geralekura! Durangoko Azokan gaude.</string>
+    <string name="txtZona6_3_Txorimalo">Euskal Liburu eta Disko Azoka, Durangon urtero, abenduaren lehenengo hamabostaldian, ospatzen den Euskal Herriko azokarik handiena eta garrantzitsuena da.
+    Aipatzekoa da, 1965eko azaroaren 1ean, lehen edizioa antolatu zutela Durangon, Andra Mariaren basilikako arkupean.
+    Normalean Euskal Herri osoko argitaletxeak batzen dira azokan, han bere liburuak eta diskoak saltzeko asmoz. Saltzen diren liburuak eta diskoak nobedadeak zein aurreko urteetan argitaratutakoak izan ohi dira.
+    Amaitzeko, esan behar dugu Durangoko Euskal Liburu eta Disko Azoka euskararen eta euskarazko kulturaren erakustoki erraldoi eta jai nagusi bihurtzen dela.
+    </string>
+    <string name="txtZona6_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen artean seigarren letra lortu nahi baduzue, hau da; G letra lortu nahi baduzue…
+
+    6 ESALDIETAN ESAN BEHAR DUZUE EA EGIA EDO GEZURRA DIREN JAJA!
+
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+
+    <string name="btnZona6_5_Juego">G LETRA LORTU!</string>
+    <string name="txtZona6_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona6_6_Txorimalo_1">Zorionak! G letra lortu duzue.\nGoazen 7. geralekura!</string>
+    <string name="txtZona6_6_LetraG">D U R A N G _</string>
+
+    <!--Juego Zona 6    -->
+
+
+    <!--    Zona 7-->
+    <string name="txtZona7_Titulo">Durangoko Pasioa</string>
+    <string name="txtZona7_1_Txorimalo">Kaixo! Ongi etorri zazpigarren eta azken geralekura! Durangoko San Agustin kultur gunean gaude.</string>
+    <string name="txtZona7_3_Txorimalo">Denek dakiten bezala, baita fedegabeak ere, Aste Santuan gauza bitxi batzuk gertatzen dira eta aste hau Nazareteko Jesusen Pasioaren, Heriotzaren eta Berpizkundearen astea da eta egun hauetan antzezpenak egiten dira, haien artean Durangoko Pasioa.
+    Batzuek, opor egun hauetan, hondartzetan eguzkia hartzen dute, eta beste batzuek, berriz, hiri eta herrietako kaleetan prozesio-urratsen bidez jai kristau honen errepresentazioa ikusten dute.
+    Askotan, Aste Santua soilik Sevilla, Valladolid eta beste hiri nagusietan egiten dela pentsatzen da, baina antzezpen hau Durangon eta beste herri eta hiri batzuetan ere egiten da.
+
+    Duela 20 urte hasi zen antzezpen hau egiten eta Aste Santuko astean ospatzen da. Hiru egunetan zehar, Durangoko bizilagunek Kristoren Pasioa eta Heriotza irudikatzen dute. Santa Ana arkuaren inguruan bueltak ematen dituzte, bertan bizilagunek plaza apaintzen dute, eta garaietako jantziekin, beste garai batzuetako eszenak antzezten dituzte.
+    </string>
+    <string name="txtZona7_4_Txorimalo">Ulertu duzue? BAI? Ba aterpetxean asteburu zoragarri bat pasatzeko lortu behar dituzuen letren artean azken letra lortu nahi baduzue,hau da; O letra lortu nahi baduzue…
+
+    ESALDIAK HITZEKIN BETE BEHARKO DITUZUE
+
+    Kapazak izango zarete seguro! Animo! Eman botoiari eta hasi!
+    </string>
+
+    <!--Juego Zona 7    -->
+    <string name="txtZona7_5_Titulo">Bete Esaldiak</string>
+    <string name="txtZona7_5_frase1">1. Durango pasioa duela _________ urte hasi zen egiten.</string>
+    <string name="txtZona7_5_frase2">2. Antzezpen hau, _____________ astean ospatzen da.</string>
+    <string name="txtZona7_5_frase3">3. ______ egunetan zehar, Durangoko bizilagunek Kristoren Pasioa eta Heriotza irudikatzen dute.</string>
+    <string name="txtZona7_5_frase4">4. __________ arkuaren inguruan bueltak ematen dituzte.</string>
+    <string name="txtZona7_5_frase5">5. Bizilagunek plaza apaintzen dute, eta __________ jantziekin, beste garai batzuetako eszenak antzezten dituzte.</string>
+    <string name="txtZona7_5_lblRespuesta">Erantzunak:</string>
+    <string name="txtZona7_5_palabra1">hogei</string>
+    <string name="txtZona7_5_palabra2">aste santuko</string>
+    <string name="txtZona7_5_palabra3">hiru</string>
+    <string name="txtZona7_5_palabra4">santa ana</string>
+    <string name="txtZona7_5_palabra5">garaietako</string>
+
+    <string name="btnZona7_5_Corregir">Zuzendu</string>
+
+
+    <string name="btnZona7_4_Juego">O LETRA LORTU!</string>
+    <string name="txtZona7_6_Titulo">ZORIONAK!</string>
+    <string name="txtZona7_6_Txorimalo_1">Zorionak! O letra lortu duzue!</string>
+    <string name="txtZona7_6_LetraO">D U R A N G O</string>
+
+    <!--    Zona 8-->
+
+    <string name="txtZona8_Titulo">ZORIONAK!!</string>
+    <string name="txtZona8_1_Txorimalo">Letra guztiak lortu dituzue! DURANGO!
+        Egin klik botoiari eta aterpetxean asteburu zoragarria pasatzeko giltza agertuko zaizue!</string>
+    <string name="sartu_beheko_esaldiak_argazki_ondoan">Sartu beheko esaldiak argazki ondoan</string>
+    <string name="plaza">- PLAZA</string>
+    <string name="gaur_egun">- GAUR EGUN</string>
+    <string name="antzinean">- ANTZINEAN</string>
+    <string name="hiria">- HIRIA</string>
+    <string name="zuzendu">Zuzendu</string>
+    <string name="santa_anako_arkua">SANTA ANAKO ARKUA:</string>
+    <string name="durangoko_euskal_liburu_eta_disko_azoka_euskararen_eta_euskarazko_kulturaren_erakustoki_erraldoi_eta_jai_nagusi_bihurtzen_da">Durangoko Euskal Liburu eta Disko Azoka euskararen eta euskarazko kulturaren erakustoki erraldoi eta jai nagusi bihurtzen da</string>
+    <string name="erantzun_egia_edo_gezurra">EGIA EDO GEZURRA</string>
+    <string name="euskal_liburu_eta_disko_azoka_durangon_bi_urtean_behin_ospatzen_da">Euskal Liburu eta Disko Azoka, Durangon bi urtean behin ospatzen da.</string>
+    <string name="abenduaren_lehenengo_hamabostaldian_ospatzen_den_euskal_herriko_azokarik_handiena_eta_garrantzitsuena_da">Abenduaren lehenengo hamabostaldian, ospatzen den Euskal Herriko azokarik handiena eta garrantzitsuena da.</string>
+    <string name="_1995eko_azaroaren_1ean_lehen_edizioa_antolatu_zuten_durangon_andra_mariaren_basilikako_arkupean">1995eko azaroaren 1ean, lehen edizioa antolatu zuten Durangon, Andra Mariaren basilikako arkupean.</string>
+    <string name="euskal_herri_osoko_argitaletxeak_batzen_dira_azokan_han_bere_liburuak_eta_diskoak_beste_liburuen_eta_diskoen_truke_aldatzeko_asmoz">Euskal Herri osoko argitaletxeak batzen dira azokan, han bere liburuak eta diskoak beste liburuen eta diskoen truke aldatzeko asmoz.</string>
+    <string name="saltzen_diren_liburuak_eta_diskoak_azoka_egiten_den_urte_berean_argitaratutakoak_baino_ez_izan_ohi_dira">Saltzen diren liburuak eta diskoak azoka egiten den urte berean argitaratutakoak baino ez izan ohi dira.</string>
+
+</resources>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Desarrollo">
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:text="Zona0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:text="Zona1"
+        app:layout_constraintStart_toEndOf="@+id/btn_Desa_Zona_0"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_1_Test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="48dp"
+        android:text="Juego1"
+        app:layout_constraintStart_toEndOf="@+id/btn_Desa_Zona_1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnVideo_desa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="Video1_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_0" />
+
+    <Button
+        android:id="@+id/btn_Desa_mapa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="mapa"
+        app:layout_constraintStart_toStartOf="@+id/btn_Desa_Zona_1"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_1" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="12dp"
+        android:text="zona 2"
+        app:layout_constraintStart_toEndOf="@+id/btn_Desa_mapa"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_1_Test" />
+
+    <Button
+        android:id="@+id/btn_Zona5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="96dp"
+        android:text="zona 5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVideo_desa" />
+
+    <Button
+        android:id="@+id/btn_Zona3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="20dp"
+        android:text="zona 3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVideo_desa" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_2_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Juego2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnVideo_desa" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_3_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="20dp"
+        android:text="juego3"
+        app:layout_constraintStart_toEndOf="@+id/btn_Zona3"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_2" />
+
+    <Button
+        android:id="@+id/btn_Zona4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="zona 4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_2_Juego" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_4_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="28dp"
+        android:text="Juego4"
+        app:layout_constraintStart_toEndOf="@+id/btn_Zona4"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Zona3" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_5_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:text="Juego5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Zona4" />
+
+    <Button
+        android:id="@+id/btn_Zona6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="20dp"
+        android:text="zona 6"
+        app:layout_constraintStart_toEndOf="@+id/btn_Desa_Zona_5_Juego"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_4_Juego" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_6_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="23dp"
+        android:text="Juego6"
+        app:layout_constraintStart_toEndOf="@+id/btn_Zona6"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Zona5" />
+
+    <Button
+        android:id="@+id/btn_Zona7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="zona 7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_5_Juego" />
+
+    <Button
+        android:id="@+id/btn_Desa_Zona_7_Juego"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="27dp"
+        android:text="Juego7"
+        app:layout_constraintStart_toEndOf="@+id/btn_Zona7"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Zona6" />
+
+    <Button
+        android:id="@+id/btn_Zona8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="24dp"
+        android:text="zona 8"
+        app:layout_constraintStart_toEndOf="@+id/btn_Desa_Zona_7_Juego"
+        app:layout_constraintTop_toBottomOf="@+id/btn_Desa_Zona_6_Juego" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
