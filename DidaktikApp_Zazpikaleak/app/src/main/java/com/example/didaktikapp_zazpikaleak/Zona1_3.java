@@ -18,8 +18,8 @@ import java.util.Collections;
 public class Zona1_3 extends AppCompatActivity {
 
     // variables para los componentes de la vista
-    ImageButton imb00, imb01, imb02, imb03, imb04, imb05, imb06, imb07, imb08, imb09, imb10, imb11;
-    ImageButton[] tablero = new ImageButton[12];
+    ImageButton imb00, imb01, imb02, imb03, imb04, imb05, imb06, imb07, imb08, imb09;
+    ImageButton[] tablero = new ImageButton[10];
     Button botonReiniciar, botonSalir;
     TextView textoPuntuacion;
     int puntuacion;
@@ -44,18 +44,16 @@ public class Zona1_3 extends AppCompatActivity {
     }
 
     private void cargarTablero(){
-        imb00 = findViewById(R.id.boton00);
-        imb01 = findViewById(R.id.boton01);
-        imb02 = findViewById(R.id.boton02);
-        imb03 = findViewById(R.id.boton03);
-        imb04 = findViewById(R.id.boton04);
-        imb05 = findViewById(R.id.boton05);
-        imb06 = findViewById(R.id.boton06);
-        imb07 = findViewById(R.id.boton07);
-        imb08 = findViewById(R.id.boton08);
-        imb09 = findViewById(R.id.boton09);
-        imb10 = findViewById(R.id.boton10);
-        imb11 = findViewById(R.id.boton11);
+        imb00 = findViewById(R.id.zona1_btn0);
+        imb01 = findViewById(R.id.zona1_btn1);
+        imb02 = findViewById(R.id.zona1_btn2);
+        imb03 = findViewById(R.id.zona1_btn3);
+        imb04 = findViewById(R.id.zona1_btn4);
+        imb05 = findViewById(R.id.zona1_btn5);
+        imb06 = findViewById(R.id.zona1_btn6);
+        imb07 = findViewById(R.id.zona1_btn7);
+        imb08 = findViewById(R.id.zona1_btn8);
+        imb09 = findViewById(R.id.zona1_btn9);
 
         tablero[0] = imb00;
         tablero[1] = imb01;
@@ -67,8 +65,6 @@ public class Zona1_3 extends AppCompatActivity {
         tablero[7] = imb07;
         tablero[8] = imb08;
         tablero[9] = imb09;
-        tablero[10] = imb10;
-        tablero[11] = imb11;
     }
 
     private void cargarBotones(){
@@ -102,8 +98,7 @@ public class Zona1_3 extends AppCompatActivity {
                 R.drawable.memory2,
                 R.drawable.memory3,
                 R.drawable.memory4,
-                R.drawable.memory5,
-                R.drawable.memory6
+                R.drawable.memory5
         };
         fondo = R.drawable.interrogacion;
     }

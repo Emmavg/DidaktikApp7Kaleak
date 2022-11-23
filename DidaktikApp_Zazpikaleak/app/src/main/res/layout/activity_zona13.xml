@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:layout_marginTop="100dp">
+        android:layout_marginTop="50dp">
 
         <TableRow
             android:layout_width="match_parent"
@@ -15,19 +15,20 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/boton00"
+                android:id="@+id/zona1_btn0"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="0">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton01"
+                android:id="@+id/zona1_btn1"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
                 android:layout_column="1">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton02"
+                android:id="@+id/zona1_btn2"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="2">
@@ -41,19 +42,20 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/boton03"
+                android:id="@+id/zona1_btn3"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="0">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton04"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:visibility="invisible"
                 android:layout_column="1">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton05"
+                android:id="@+id/zona1_btn4"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="2">
@@ -67,19 +69,20 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/boton06"
+                android:id="@+id/zona1_btn5"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="0">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton07"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
+                android:visibility="invisible"
                 android:layout_column="1">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton08"
+                android:id="@+id/zona1_btn6"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="2">
@@ -93,19 +96,20 @@
             android:gravity="center">
 
             <ImageButton
-                android:id="@+id/boton09"
+                android:id="@+id/zona1_btn7"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="0">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton10"
+                android:id="@+id/zona1_btn8"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
+                android:layout_marginHorizontal="10dp"
                 android:layout_column="1">
             </ImageButton>
             <ImageButton
-                android:id="@+id/boton11"
+                android:id="@+id/zona1_btn9"
                 android:layout_width="80dp"
                 android:layout_height="80dp"
                 android:layout_column="2">
