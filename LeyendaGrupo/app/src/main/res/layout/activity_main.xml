@@ -29,10 +29,17 @@
         android:outlineSpotShadowColor="@color/black" />
 
     <Button
+        android:id="@+id/zona3_btnComprobar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPROBAR" />
+
+    <Button
         android:id="@+id/zona3_btnOrden"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
+        android:enabled="false"
         android:text="@string/ORDEN" />
 
 </LinearLayout>
