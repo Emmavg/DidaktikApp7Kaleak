@@ -1,9 +1,20 @@
 <resources>
     <string name="app_name">DidaktikApp_Zazpikaleak</string>
 
-
+    <!-- Strings Zona 1 -->
     <string name="txtZona1_Titulo">Mercado de la Ribera e Iglesia y Puente de San Anton </string>
 
+    <string name="txtZona1_Narrador_1">En el Casco Viejo y a orillas de la ría tenemos el Mercado de la Ribera. Siglos atrás era un mercado de calle, y no fue hasta el año 1929 cuando se inauguró el actual Mercado de la Ribera.</string>
+    <string name="txtZona1_Narrador_2"> ¿Sabíais que en 1990 ganó un Guinness World Records? En esa época, era el mercado cubierto más grande de Europa.
+        Dentro hay más de 50 puestos de comida. Además, a veces se hacen conciertos. ¿Habéis estado alguna vez? ¿Qué comprasteis?
+
+        Un poco más arriba del mercado está la iglesia de San Antón. No es la más antigua de Bilbao, pero sí una de las más importantes.
+        ¿Sabéis por qué? Esta iglesia y el puente de San Antón aparecen en el escudo de la ciudad y en el escudo del Athletic Club.
+
+    </string>
+
+    <string name="txtZona1_Dingdong">Ahora visitaremos el mercado y cuando terminéis de verlo todo saldremos y nos dirigiremos al puente de San Antón.
+        Cuando estéis allí pulsad el botón para que os enseñe un juego.</string>
 
 
 </resources>
