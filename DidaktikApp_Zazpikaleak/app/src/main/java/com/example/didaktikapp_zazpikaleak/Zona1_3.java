@@ -39,21 +39,21 @@ public class Zona1_3 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_zona13);
+        setContentView(R.layout.activity_zona1_3);
         init();
     }
 
     private void cargarTablero(){
-        imb00 = findViewById(R.id.zona1_btn0);
-        imb01 = findViewById(R.id.zona1_btn1);
-        imb02 = findViewById(R.id.zona1_btn2);
-        imb03 = findViewById(R.id.zona1_btn3);
-        imb04 = findViewById(R.id.zona1_btn4);
-        imb05 = findViewById(R.id.zona1_btn5);
-        imb06 = findViewById(R.id.zona1_btn6);
-        imb07 = findViewById(R.id.zona1_btn7);
-        imb08 = findViewById(R.id.zona1_btn8);
-        imb09 = findViewById(R.id.zona1_btn9);
+        imb00 = findViewById(R.id.zona1_3_btn0);
+        imb01 = findViewById(R.id.zona1_3_btn1);
+        imb02 = findViewById(R.id.zona1_3_btn2);
+        imb03 = findViewById(R.id.zona1_3_btn3);
+        imb04 = findViewById(R.id.zona1_3_btn4);
+        imb05 = findViewById(R.id.zona1_3_btn5);
+        imb06 = findViewById(R.id.zona1_3_btn6);
+        imb07 = findViewById(R.id.zona1_3_btn7);
+        imb08 = findViewById(R.id.zona1_3_btn8);
+        imb09 = findViewById(R.id.zona1_3_btn9);
 
         tablero[0] = imb00;
         tablero[1] = imb01;
@@ -68,8 +68,8 @@ public class Zona1_3 extends AppCompatActivity {
     }
 
     private void cargarBotones(){
-        botonReiniciar = findViewById(R.id.botonJuegoReiniciar);
-        botonSalir = findViewById(R.id.botonJuegoSalir);
+        botonReiniciar = findViewById(R.id.zona1_3_botonJuegoReiniciar);
+        botonSalir = findViewById(R.id.zona1_3_botonJuegoSalir);
         botonReiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -86,7 +86,7 @@ public class Zona1_3 extends AppCompatActivity {
     }
 
     private void cargarTexto(){
-        textoPuntuacion = findViewById(R.id.texto_puntuacion);
+        textoPuntuacion = findViewById(R.id.zona1_3_texto_puntuacion);
         puntuacion = 0;
         aciertos = 0;
         textoPuntuacion.setText("Puntuacion: " + puntuacion);
