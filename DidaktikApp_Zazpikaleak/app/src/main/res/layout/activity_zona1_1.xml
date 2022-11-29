@@ -18,7 +18,8 @@
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="20dp"/>
 
     <ScrollView
         android:layout_width="match_parent"
@@ -127,20 +128,21 @@
                 app:layout_constraintStart_toEndOf="@+id/imgZona1_1_Foto3"
                 app:layout_constraintTop_toBottomOf="@+id/scrollerZona1_1_Narrador_2"
                 app:srcCompat="@drawable/zona1_foto_4" />
-
+            <Button
+                android:id="@+id/btnZona1_1_Siguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="50dp"
+                android:text="Siguiente"
+                android:layout_gravity="right"/>
         </LinearLayout>
+
     </ScrollView>
 
 
 
-        <Button
-            android:id="@+id/btnZona1_1_Siguiente"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="30dp"
-            android:layout_marginRight="50dp"
-            android:text="Siguiente"
-            android:layout_gravity="right"/>
+
 
 
 
