@@ -15,6 +15,9 @@
 
     <string name="txtZona1_Dingdong">Ahora visitaremos el mercado y cuando terminéis de verlo todo saldremos y nos dirigiremos al puente de San Antón.
         Cuando estéis allí pulsad el botón para que os enseñe un juego.</string>
+    <string name="HACER_LOS_GRUPOS">Hacer los grupos</string>
+    <string name="Escribe_leyenda">Escribe la leyenda</string>
+    <string name="ORDEN">Orden</string>
 
 
 </resources>

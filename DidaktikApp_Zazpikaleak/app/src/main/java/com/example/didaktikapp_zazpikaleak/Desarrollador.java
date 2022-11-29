@@ -44,7 +44,7 @@ public class Desarrollador extends AppCompatActivity {
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Desarrollador.this, Zona1_3.class);
+                Intent i = new Intent(Desarrollador.this, Zona3_2.class);
                 startActivity(i);
             }
         });
