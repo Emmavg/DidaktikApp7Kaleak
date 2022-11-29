@@ -24,10 +24,10 @@ public class Zona3_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zona3_2);
 
-        btnGrupos = findViewById(R.id.zona3_btnGrupos);
-        btnOrden = findViewById(R.id.zona3_btnOrden);
-        btnComprobar = findViewById(R.id.zona3_btnComprobar);
-        txtleyenda = findViewById(R.id.zona3_txtLeyenda);
+        btnGrupos = findViewById(R.id.zona3_2_btnGrupos);
+        btnOrden = findViewById(R.id.zona3_2_btnOrden);
+        btnComprobar = findViewById(R.id.zona3_2_btnComprobar);
+        txtleyenda = findViewById(R.id.zona3_2_txtLeyenda);
 
 
 //*************************** Cogemos el array de la base de datos se lo pasamos a un arrayList ************************************

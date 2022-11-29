@@ -3,12 +3,14 @@ package com.example.didaktikapp_zazpikaleak;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
 import android.text.method.ScrollingMovementMethod;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.ScrollView;
 import android.widget.TextView;
@@ -20,13 +22,9 @@ import java.util.TimerTask;
 public class Zona1_1 extends AppCompatActivity {
 
     private MediaPlayer audio;
-    private ImageView imgZona1_1_Foto1;
-    private ImageView imgZona1_1_Foto2;
-    private ImageView imgZona1_1_Foto3;
-    private ImageView imgZona1_1_Foto4;
-
-    private TextView txtZona1_1_Narrador_1;
-    private TextView txtZona1_1_Narrador_2;
+    private ImageView imgZona1_1_Foto1,imgZona1_1_Foto2,imgZona1_1_Foto3,imgZona1_1_Foto4;
+    private Button btnZona1_1_Siguiente;
+    private TextView txtZona1_1_Narrador_1, txtZona1_1_Narrador_2;
 
     //Las acciónes que queremos que se ejecuten cuando se inicia la actividad
     @Override
@@ -38,7 +36,7 @@ public class Zona1_1 extends AppCompatActivity {
         imgZona1_1_Foto2 = findViewById(R.id.imgZona1_1_Foto2);
         imgZona1_1_Foto3 = findViewById(R.id.imgZona1_1_Foto3);
         imgZona1_1_Foto4 = findViewById(R.id.imgZona1_1_Foto4);
-
+        btnZona1_1_Siguiente = findViewById(R.id.btnZona1_1_Siguiente);
         txtZona1_1_Narrador_1 = findViewById(R.id.txtZona1_1_Narrador_1);
         txtZona1_1_Narrador_2 = findViewById(R.id.txtZona1_1_Narrador_2);
 
@@ -107,6 +105,15 @@ public class Zona1_1 extends AppCompatActivity {
                     }
                 });
 
+            }
+        });
+
+        btnZona1_1_Siguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Zona1_1.this, Zona1_2.class);
+                startActivity(intent);
+                audio.stop();
             }
         });
 
