@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-import com.bumptech.glide.Glide;
+
 
 
 public class Zona1_2 extends AppCompatActivity {
@@ -22,9 +22,6 @@ public class Zona1_2 extends AppCompatActivity {
         setContentView(R.layout.activity_zona1_2);
 
         btnZona1_2_Siguiente = findViewById(R.id.btnZona1_2_Siguiente);
-        gif = findViewById(R.id.Gif);
-
-        Glide.with(this).load(R.drawable.dingdondgif).into(gif);
 
         btnZona1_2_Siguiente.setOnClickListener(new View.OnClickListener() {
             @Override
