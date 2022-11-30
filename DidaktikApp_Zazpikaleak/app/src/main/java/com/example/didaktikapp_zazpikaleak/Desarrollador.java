@@ -33,13 +33,13 @@ public class Desarrollador extends AppCompatActivity {
             }
         });
 
-//        btn2.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(Desarrollador.this, Zona1_3.class);
-//                startActivity(i);
-//            }
-//        });
+        btn2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Desarrollador.this, Zona2_1.class);
+                startActivity(i);
+            }
+        });
 
         btn3.setOnClickListener(new View.OnClickListener() {
             @Override
