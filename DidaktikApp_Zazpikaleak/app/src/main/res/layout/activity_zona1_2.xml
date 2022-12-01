@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Zona1_2">
+    tools:context=".Zona1_2"
+    android:background= "@color/fondo">
 
     <TextView
         android:id="@+id/txtZona1_2_Titulo"
