@@ -20,7 +20,7 @@ public class Zona1_3 extends AppCompatActivity {
     // variables para los componentes de la vista
     ImageButton imb00, imb01, imb02, imb03, imb04, imb05, imb06, imb07, imb08, imb09;
     ImageButton[] tablero = new ImageButton[10];
-    Button botonReiniciar, botonSalir;
+    Button botonReiniciar, botonSiguiente;
     TextView textoPuntuacion;
     int puntuacion;
     int aciertos;
@@ -69,7 +69,7 @@ public class Zona1_3 extends AppCompatActivity {
 
     private void cargarBotones(){
         botonReiniciar = findViewById(R.id.zona1_3_botonJuegoReiniciar);
-        botonSalir = findViewById(R.id.zona1_3_botonJuegoSalir);
+        botonSiguiente = findViewById(R.id.zona1_3_botonJuegoSalir);
         botonReiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -77,7 +77,7 @@ public class Zona1_3 extends AppCompatActivity {
             }
         });
 
-        botonSalir.setOnClickListener(new View.OnClickListener() {
+        botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 finish();
