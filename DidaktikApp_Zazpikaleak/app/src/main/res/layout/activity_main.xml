@@ -25,9 +25,11 @@
 
 
         <Button
+        android:id="@+id/btnZona1_Empezar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"/>
+        android:layout_marginTop="50dp"
+        android:text="@string/btnMenuPrincipal"/>
 
 
         <RelativeLayout
@@ -62,8 +64,9 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/txtZona1_Creditos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="\@Créditos" />
+        android:text="@string/creditos" />
 </LinearLayout>

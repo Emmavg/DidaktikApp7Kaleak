@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:background= "@color/fondo">
 
     <TableLayout
@@ -130,11 +131,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="reiniciar"></Button>
-            <Button
-                android:id="@+id/zona1_3_botonJuegoSalir"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="salir"></Button>
+
 
         </LinearLayout>
 
@@ -153,11 +150,27 @@
                 android:layout_gravity="center">
             </TextView>
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="50dp">
+
+            <Button
+                android:id="@+id/zona1_3_btnSiguiente"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:visibility="invisible"
+                android:text="siguiente">
+            </Button>
 
         </LinearLayout>
 
+
     </TableLayout>
-
-
 
 </LinearLayout>

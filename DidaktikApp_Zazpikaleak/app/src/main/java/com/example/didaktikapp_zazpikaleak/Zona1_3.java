@@ -3,6 +3,7 @@ package com.example.didaktikapp_zazpikaleak;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -69,7 +70,8 @@ public class Zona1_3 extends AppCompatActivity {
 
     private void cargarBotones(){
         botonReiniciar = findViewById(R.id.zona1_3_botonJuegoReiniciar);
-        botonSiguiente = findViewById(R.id.zona1_3_botonJuegoSalir);
+        botonSiguiente = findViewById(R.id.zona1_3_btnSiguiente);
+
         botonReiniciar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -80,7 +82,8 @@ public class Zona1_3 extends AppCompatActivity {
         botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                finish();
+                Intent intent = new Intent(Zona1_3.this, Zona2_1.class);
+                startActivity(intent);
             }
         });
     }
@@ -132,6 +135,7 @@ public class Zona1_3 extends AppCompatActivity {
                 puntuacion++;
                 textoPuntuacion.setText("Puntuación: " + puntuacion);
                 if(aciertos == imagenes.length){
+                    botonSiguiente.setVisibility(View.VISIBLE);
                     Toast toast = Toast.makeText(getApplicationContext(), "Has ganado!!", Toast.LENGTH_LONG);
                     toast.show();
                 }
@@ -159,6 +163,7 @@ public class Zona1_3 extends AppCompatActivity {
         cargarBotones();
         cargarTexto();
         cargarImagenes();
+
         arrayDesordenado = barajar(imagenes.length);
         for(int i=0; i<tablero.length; i++){
             tablero[i].setScaleType(ImageView.ScaleType.CENTER_CROP);
