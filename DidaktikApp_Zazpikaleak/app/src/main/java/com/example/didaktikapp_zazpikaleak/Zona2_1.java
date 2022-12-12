@@ -12,8 +12,8 @@ import android.widget.ImageView;
 
 public class Zona2_1 extends AppCompatActivity {
 
-    Button zona2_1_btnCamara;
-    ImageView zona2_1_imgView;
+    private Button zona2_1_btnCamara, zona2_1_btnSiguiente;
+    private ImageView zona2_1_imgView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

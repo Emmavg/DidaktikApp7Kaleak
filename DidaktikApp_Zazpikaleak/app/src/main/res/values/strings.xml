@@ -30,7 +30,11 @@
 
     <!-- Strings Zona 2 -->
 
-    <string name="txtZona2_Titulo">El Arenal y la Iglesia de San Nicolas</string>
+    <string name="txtZona2_1_Titulo">El Arenal y la Iglesia de San Nicolas</string>
+
+    <string name="txtZona2_1_Explicacion">El objetivo aqui es intentar sacar una foto con la misma perspectiva que la foto antigua. ¿Podrás conseguirlo?</string>
+
+    <string name="txtZona2_1_Dingdon">¡Genial! Ahora tenéis que comparar la foto antigua y la actual.</string>
 
     <string name="txtZona2_Narrador_1">La iglesia de San Nicolás se inauguró en el año 1756 y tardaron 13 años en construirla. En la fachada, es decir, la parte de fuera de la iglesia podemos encontrar la entrada principal y dos torres a cada lado.</string>
     <string name="txtZona2_Narrador_2">La zona donde estamos ahora mismo se llama El Arenal. ¿Por que creeis que se llama así? Pues su nombre se debe a que antiguamente fue una especie de playa donde paraban los barcos.</string>
