@@ -4,6 +4,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -23,6 +24,7 @@ public class Zona1_3 extends AppCompatActivity {
     ImageButton[] tablero = new ImageButton[10];
     Button botonReiniciar, botonSiguiente;
     TextView textoPuntuacion;
+    private MediaPlayer audio;
     int puntuacion;
     int aciertos;
 
@@ -82,7 +84,7 @@ public class Zona1_3 extends AppCompatActivity {
         botonSiguiente.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(Zona1_3.this, Zona2_1.class);
+                Intent intent = new Intent(Zona1_3.this, Zona1_5.class);
                 startActivity(intent);
             }
         });
@@ -135,9 +137,13 @@ public class Zona1_3 extends AppCompatActivity {
                 puntuacion++;
                 textoPuntuacion.setText("Puntuación: " + puntuacion);
                 if(aciertos == imagenes.length){
+                    //Boton Siguiente Visible
                     botonSiguiente.setVisibility(View.VISIBLE);
                     Toast toast = Toast.makeText(getApplicationContext(), "Has ganado!!", Toast.LENGTH_LONG);
                     toast.show();
+                    //Audio Din Dong Feliz
+                    audio = MediaPlayer.create(Zona1_3.this, R.raw.audio_zona1_dindongfeliz);
+                    audio.start();
                 }
             } else {
                 handler.postDelayed(new Runnable() {

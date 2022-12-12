@@ -3,7 +3,7 @@
 
     <!-- Strings Menu Inicio-->
 
-    <string name="btnMenuPrincipal">Emepezar</string>
+    <string name="btnMenuPrincipal">Empezar</string>
     <string name="txtBienvenidaApp_Dingdong">¡Hola, me llamo Din Don y voy a ser vuestro guía durante esta aventura!</string>
     <string name="creditos">\@Creditos</string>
 
@@ -21,6 +21,10 @@
 
     <string name="txtZona1_Dingdong">Ahora visitaremos el mercado y cuando terminéis de verlo todo saldremos y nos dirigiremos al puente de San Antón.\n\n
         Cuando estéis allí pulsad el botón para que os enseñe un juego.</string>
+
+    <string name="txtZona1_5">Proxima Parada</string>
+    <string name="txtZona1_5_DingDon">¿Ya sabéis de qué lugar se trata? ¡Pues, en marcha!</string>
+    <string name="txtZona1_5_Hint">Arenal e Iglesia de San Nicolás</string>
 
     <string name="btnZona1_Siguiente">Siguiente</string>
 
@@ -41,7 +45,6 @@
     <string name="btnZona3_2_HACER_LOS_GRUPOS">Hacer los grupos</string>
     <string name="btnZona3_2_Escribe_leyenda">Escribe la leyenda</string>
     <string name="btnZona3_2_ORDEN">Orden</string>
-
 
 
 </resources>
