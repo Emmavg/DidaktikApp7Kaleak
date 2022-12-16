@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -19,6 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        // Generamos la conexion de la BBDD
+
+        //Abrimos la base de datos "DBUsuarios" en modo de escritura
+        UsuariosSQLiteHelper zazpidbh = new UsuariosSQLiteHelper(this, "DBZazpikaleak", null, 1);
+        SQLiteDatabase db = zazpidbh.getWritableDatabase();
+
         titulo = findViewById(R.id.inicial_txt);
         empezar = findViewById(R.id.btnZona1_Empezar);
 
