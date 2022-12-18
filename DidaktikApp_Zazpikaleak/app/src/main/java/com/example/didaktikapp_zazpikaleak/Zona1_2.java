@@ -21,7 +21,7 @@ public class Zona1_2 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_zona1_2);
 
-        btnZona1_2_Siguiente = findViewById(R.id.btnZona1_2_Siguiente);
+        btnZona1_2_Siguiente = findViewById(R.id.zona1_2_btnSiguiente);
 
         btnZona1_2_Siguiente.setOnClickListener(new View.OnClickListener() {
             @Override

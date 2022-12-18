@@ -61,15 +61,16 @@
                 android:text="@string/btnZona2_1_Camara" />
 
             <RelativeLayout
-                android:layout_width="356dp"
-                android:layout_height="127dp"
-                android:layout_marginHorizontal="20dp">
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginTop="10dp">
 
 
                 <TextView
                     android:id="@+id/txtZona1_2_Dingdong"
                     android:layout_width="match_parent"
-                    android:layout_height="65dp"
+                    android:layout_height="150dp"
                     android:layout_marginTop="56dp"
                     android:background="@drawable/bocadillo_cuadrado"
                     android:fontFamily="@font/nunitoregular"
@@ -81,8 +82,8 @@
 
                 <ImageView
                     android:id="@+id/imgZona1_2_Dingdong"
-                    android:layout_width="78dp"
-                    android:layout_height="79dp"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
                     android:layout_gravity="right"
                     android:src="@drawable/dindonfunko" />
 
@@ -92,10 +93,10 @@
                 android:id="@+id/zona2_1_btnSiguiente"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="20dp"
-                android:layout_gravity="right"
-                android:layout_marginTop="15dp"
-                android:text="@string/btnZona1_Siguiente"/>
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:text="@string/btnZona1_Siguiente">
+            </Button>
 
         </LinearLayout>
 

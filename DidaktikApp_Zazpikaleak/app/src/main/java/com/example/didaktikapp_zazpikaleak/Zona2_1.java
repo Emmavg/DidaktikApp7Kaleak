@@ -21,6 +21,15 @@ public class Zona2_1 extends AppCompatActivity {
         setContentView(R.layout.activity_zona2_1);
         zona2_1_btnCamara = findViewById(R.id.zona2_1_btnCamara);
         zona2_1_imgView = findViewById(R.id.zona2_1_imageView);
+        zona2_1_btnSiguiente = findViewById(R.id.zona2_1_btnSiguiente);
+
+        zona2_1_btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Zona2_1.this, Zona2_4.class);
+                startActivity(intent);
+            }
+        });
 
         zona2_1_btnCamara.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,4 +54,6 @@ public class Zona2_1 extends AppCompatActivity {
             zona2_1_imgView.setImageBitmap(imgBitmap);
         }
     }
+
+
 }

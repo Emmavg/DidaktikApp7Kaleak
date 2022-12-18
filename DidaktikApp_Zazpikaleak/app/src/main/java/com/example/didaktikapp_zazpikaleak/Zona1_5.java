@@ -2,6 +2,7 @@ package com.example.didaktikapp_zazpikaleak;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.Handler;
@@ -50,6 +51,14 @@ public class Zona1_5 extends AppCompatActivity {
                 btnSiguiente.setVisibility(View.VISIBLE);
             }
         },5000);
+
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Zona1_5.this, Zona2_1.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
