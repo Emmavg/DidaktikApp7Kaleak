@@ -108,13 +108,13 @@ public class Zona4_1 extends AppCompatActivity {
             }
         });
 //********************************* Accion del boton siguiente ***************************
-//        btnSiguiente.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Intent i = new Intent(Zona4_1.this, Zona4_2.class);
-//                startActivity(i);
-//            }
-//        });
+        btnSiguiente.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(Zona4_1.this, Zona4_5.class);
+                startActivity(i);
+            }
+        });
     }
     private void abrirDialogo(String[] total) {
         FragmentManager fragmentManager = getSupportFragmentManager();
