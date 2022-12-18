@@ -64,7 +64,7 @@ public class Zona4_1 extends AppCompatActivity {
         int pos = 0;
         HashMap<Integer, ArrayList<String>> mapaGrupos = new HashMap<>();
         for (int i = 0; i < total.length; i++) {
-            if (i % 4 == 0) {
+            if (i % 3 == 0) {
                 total[i] = "Grupo " + cont + ":";
 
                 //**************** Parte Mapa ******************
