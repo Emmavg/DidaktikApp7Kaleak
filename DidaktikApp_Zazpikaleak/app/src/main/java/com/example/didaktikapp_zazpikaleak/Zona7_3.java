@@ -8,6 +8,7 @@ import android.graphics.Rect;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.GridView;
 import android.widget.TextView;
 
@@ -36,6 +37,10 @@ public class Zona7_3 extends AppCompatActivity {
     };
     private TextView sopatxt;
     private TextView resultado;
+    private Button btnSiguiente;
+
+
+
     Rect rectant = new Rect();
     @SuppressLint("ClickableViewAccessibility")
     @Override
@@ -52,6 +57,8 @@ public class Zona7_3 extends AppCompatActivity {
         decorView.setSystemUiVisibility(uiOptions);
 
         TextView resultado = findViewById(R.id.resultado);
+
+        Button btnSiguiente = findViewById(R.id.zona7_3btn_Siguiente);
 
         GridView sopa = findViewById(R.id.sopaLetras);
         sopa.setHorizontalSpacing(30);
@@ -85,8 +92,12 @@ public class Zona7_3 extends AppCompatActivity {
 
                                 }
                                 if (palabra.getText().toString().toUpperCase().equals(resultado.getText().toString())) {
-                                    palabra.setTextColor(Color.GREEN);
+                                    palabra.setTextColor(Color.parseColor("#37962E"));
                                     palabras.put(palabra,true);
+
+                                    if(comprobarAcertadas()){
+                                        btnSiguiente.setEnabled(true);
+                                    }
 
                                     for(View vposi:listaPosible){
                                         listaAcertada.add(vposi);
@@ -128,6 +139,16 @@ public class Zona7_3 extends AppCompatActivity {
         palabras.put((TextView)findViewById(R.id.zona7_txtpintxos), false);
         palabras.put((TextView)findViewById(R.id.zona7_txtarcos), false);
         palabras.put((TextView)findViewById(R.id.zona7_txtrestaurantes), false);
+    }
+
+    private boolean comprobarAcertadas(){
+
+        for(TextView palabra : palabras.keySet()){
+            if(palabras.get(palabra)==false){
+                return false;
+            }
+        }
+        return true;
     }
 
 

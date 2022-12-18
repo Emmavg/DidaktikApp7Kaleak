@@ -10,7 +10,7 @@
         android:id="@+id/desarrollador_btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parada1"/>
+        android:text="Busca la pareja"/>
 
     <Button
         android:id="@+id/desarrollador_btn2"
@@ -22,19 +22,19 @@
         android:id="@+id/desarrollador_btn3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parada3"/>
+        android:text="Leyenda"/>
 
     <Button
         android:id="@+id/desarrollador_btn4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parada4"/>
+        android:text="Rima"/>
 
     <Button
         android:id="@+id/desarrollador_btn5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parada5"/>
+        android:text="Dibujar baldosa"/>
 
     <Button
         android:id="@+id/desarrollador_btn6"
@@ -46,6 +46,6 @@
         android:id="@+id/desarrollador_btn7"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Parada7"/>
+        android:text="Sopa de letras"/>
 
 </LinearLayout>

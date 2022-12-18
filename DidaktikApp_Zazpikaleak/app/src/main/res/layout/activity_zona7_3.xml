@@ -10,11 +10,11 @@
     <GridView
         android:id="@+id/sopaLetras"
         android:layout_width="348dp"
-        android:layout_height="524dp"
+        android:layout_height="433dp"
         android:fontFamily="monospace"
         android:gravity="center"
         android:numColumns="14"
-        android:textSize="20sp"
+        android:textSize="15sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.49"
@@ -56,7 +56,7 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.437"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sopaLetras"></TextView>
 
@@ -118,5 +118,15 @@
         app:layout_constraintStart_toStartOf="@+id/zona7_txteuskaltzaindia"
         app:layout_constraintTop_toBottomOf="@+id/zona7_txteuskaltzaindia"></TextView>
 
-
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:text="Siguiente"
+        android:id="@+id/zona7_3btn_Siguiente"
+        android:enabled="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+    </Button>
 </androidx.constraintlayout.widget.ConstraintLayout>
