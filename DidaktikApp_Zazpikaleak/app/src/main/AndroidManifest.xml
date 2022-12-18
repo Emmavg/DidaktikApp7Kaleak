@@ -59,6 +59,13 @@
                 android:value="" />
         </activity>
         <activity
+            android:name=".Zona4_1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".Desarrollador"
             android:exported="false">
             <meta-data

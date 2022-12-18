@@ -4,9 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginHorizontal="40dp"
-    android:layout_marginTop="20dp"
-    android:layout_marginBottom="20dp"
     android:gravity="top"
     android:orientation="vertical"
     android:background= "@color/fondo"
@@ -16,29 +13,32 @@
         android:id="@+id/zona3_2_btnGrupos"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
-        android:layout_marginBottom="20dp"
         android:text="@string/btnZona3_2_HACER_LOS_GRUPOS" />
 
     <EditText
         android:id="@+id/zona3_2_txtLeyenda"
         android:layout_width="match_parent"
         android:layout_height="274dp"
+        android:layout_marginHorizontal="40dp"
         android:background="@drawable/zona3_2_bordes_edittext"
         android:hint="@string/btnZona3_2_Escribe_leyenda"
-        android:textColor="@color/black"
-        android:outlineSpotShadowColor="@color/black" />
+        android:outlineSpotShadowColor="@color/black"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/zona3_2_btnComprobar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
         android:text="COMPROBAR" />
 
     <Button
         android:id="@+id/zona3_2_btnOrden"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
         android:layout_marginTop="20dp"
         android:enabled="false"
         android:text="@string/btnZona3_2_ORDEN" />
